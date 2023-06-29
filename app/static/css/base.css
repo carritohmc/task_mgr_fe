@@ -1,0 +1,22 @@
+h1 {
+
+    color: rgb(168, 109, 0);
+}
+
+.card{
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 174);
+}
+
+.title-display{
+    
+    display: block;
+}
+
+.card-container{
+    padding: 5px;
+    display: flex;
+    background-color: rgba(156, 94, 0, 0.288);
+    border-radius: 5px;
+}
+

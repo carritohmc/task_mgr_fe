@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}  {{ task["summary"] }}{% endblock title %}
+
+{% block content %}
+    <h1> {{ task["summary"] }}</h1>
+    {% if task["is_done"] == 1%}
+    <small>Task complete</small>
+    {%endif%}
+    <p>{{ task["description"]}}</p>
+{% endblock content %}
